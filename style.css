@@ -89,7 +89,7 @@ img {
   background-size: cover;
 }
 
-.project-image > iframe{
+.project-image > iframe {
   background-size: cover;
   display: block;
   max-width: 100%;
@@ -105,10 +105,17 @@ img {
 /* Small Screens */
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 580px;
   }
 
+  .landing .image {
+    display: none;
+  }
 
+  .text{
+    width: 400px;
+    margin: auto;
+  }
   
 }
 
@@ -315,6 +322,7 @@ img {
 @media (max-width: 992px) {
   .landing .text {
     text-align: center;
+    
   }
 }
 .landing .text h1 {
