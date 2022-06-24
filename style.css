@@ -68,6 +68,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  
 }
 a {
   text-decoration: none;
@@ -105,12 +106,11 @@ img {
 /* Small Screens */
 @media (min-width: 768px) {
   .container {
-    width: 580px;
+    width: 100%;
+    
   }
 
-  .landing .image {
-    display: none;
-  }
+
 
   .text{
     width: 400px;
@@ -126,20 +126,8 @@ img {
 }
 
 
-/* Medium Screens */
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
 
 
-}
-/* Large Screens */
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
 /* End Global Rules */
 
 /* Start Utility Classes */
@@ -381,11 +369,13 @@ img {
    border-radius: 30px;
    
 }
+
 @media (max-width: 992px) {
-  .landing .image {
+  .image{
     display: none;
   }
 }
+
 /* End Landing Section */
 
 /* Start Projects */
@@ -393,6 +383,7 @@ img {
   padding-top: var(--sections-padding);
   padding-bottom: var(--sections-padding);
   background: var(--alice-color);
+  width:100vw;
 }
 .projects-content {
   display: grid;
