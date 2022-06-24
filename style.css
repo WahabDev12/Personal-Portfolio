@@ -68,7 +68,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  
 }
 a {
   text-decoration: none;
@@ -89,14 +88,6 @@ img {
   max-width: 100%;
   background-size: cover;
 }
-
-.project-image > iframe {
-  background-size: cover;
-  display: block;
-  max-width: 100%;
-}
-
-
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -106,16 +97,10 @@ img {
 /* Small Screens */
 @media (min-width: 768px) {
   .container {
-    width: 100%;
-    
+    width: 750px;
   }
 
 
-
-  .text{
-    width: 400px;
-    margin: auto;
-  }
   
 }
 
@@ -126,8 +111,20 @@ img {
 }
 
 
+/* Medium Screens */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
 
 
+}
+/* Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 /* End Global Rules */
 
 /* Start Utility Classes */
@@ -299,22 +296,15 @@ img {
 .landing .text {
   text-align: start;
   flex: 1;
-  color:var(--black-color);
-  
-}
-
-.text > p{
-    padding-top:5px;
-    width:590px;
+  color:var(--black-color)
 }
 @media (max-width: 992px) {
   .landing .text {
     text-align: center;
-    
   }
 }
 .landing .text h1 {
-  font-size: 50px;
+  font-size: 40px;
   text-transform: capitalize;
   font-weight: 700;
   letter-spacing: 1px;
@@ -369,13 +359,11 @@ img {
    border-radius: 30px;
    
 }
-
 @media (max-width: 992px) {
-  .image{
+  .landing .image {
     display: none;
   }
 }
-
 /* End Landing Section */
 
 /* Start Projects */
@@ -383,7 +371,6 @@ img {
   padding-top: var(--sections-padding);
   padding-bottom: var(--sections-padding);
   background: var(--alice-color);
-  width:100vw;
 }
 .projects-content {
   display: grid;
