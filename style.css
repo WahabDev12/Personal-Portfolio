@@ -285,7 +285,9 @@ img {
 .landing {
   height: 100vh;
   background-color: var(--bcolor);
+  
 }
+
 .landing .container {
   display: flex;
   justify-content: space-between;
