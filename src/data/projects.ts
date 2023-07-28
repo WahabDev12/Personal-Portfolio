@@ -12,12 +12,12 @@ const projects: Project[] = [
     link: "https://libre-gradients.vercel.app",
 },
 {
-    title: "Breeze / A screenshots editor for the web 🎨",
+    title: "Breeze / A screenshots editor for the web 🔥",
     techs: ["ReactJS (Vite)"],
     link: "https://breeze-app.vercel.app/",
 },
 {
-    title: "Chillax / A meditation tool for studying 💆",
+    title: "Chillax / A meditation tool for studying ⚡️",
     link: "https://chillax1-wahabdev12.vercel.app/",
     techs: ["ReactJS"],
   },
