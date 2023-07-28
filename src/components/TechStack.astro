@@ -1,0 +1,22 @@
+---
+import presentation from "@/data/presentation";
+---
+
+<ul role="list" class="flex flex-row gap-2">
+	{
+		presentation.stacks.map((stack, index) => (
+			<>
+				<li class="flex items-center gap-2">
+					<img class="transition-all hover:scale-125" src={stack.link} />
+					<h3 class="hidden cursor-pointer flex-wrap hover:text-neutral-100 lg:flex">
+						{stack.label}
+					</h3>
+				</li>
+
+				{presentation.stacks.length - 1 !== index && (
+					<li class="flex items-center text-lg ">|</li>
+				)}
+			</>
+		))
+	}
+</ul>
