@@ -1,1 +1,1 @@
-export const SITE_URL = "https://abdulwahab.netlify.app/";
+export const SITE_URL = "https://urdadx.vercel.app/";
