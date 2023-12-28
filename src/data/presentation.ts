@@ -30,10 +30,6 @@ const presentation: Presentation = {
       link: "https://github.com/urdadx",
     },
     {
-      label: "LinkedIn",
-      link: "https://linkedin.com/in/abdul-abass",
-    },
-    {
       label: "Book Me",
       link: "https://cal.com/urdadx",
     },
