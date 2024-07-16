@@ -19,7 +19,7 @@ const presentation: Presentation = {
   mail: 'abassabdulwahab3@gmail.com',
   title: "Hi, I'm Abdul Wahab 👋",
   description:
-    "Hi there, I'm Abdul Wahab, a *fullstack developer* and *Linux nerd 🐧*. I'm currently a Computer Science student at Ashesi University. I love *building cool stuff* and exploring *low-level languages*. Outside coding, I like to play video games and football ⚽ .",
+    "Hi there, I'm Abdul Wahab, a *fullstack developer* and *Linux fanboy 🐧*. I'm currently a Computer Science student at Ashesi University. I love *building cool stuff* and exploring *low-level languages*. Outside coding, I like to play video games and football ⚽ .",
   socials: [
     {
       label: 'Twitter',
@@ -28,10 +28,6 @@ const presentation: Presentation = {
     {
       label: 'Github',
       link: 'https://github.com/urdadx',
-    },
-    {
-      label: 'LinkedIn',
-      link: 'https://linkedin.com/in/abdul-abass',
     },
     {
       label: 'Book Me',
