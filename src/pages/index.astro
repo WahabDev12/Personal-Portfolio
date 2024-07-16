@@ -29,7 +29,7 @@ const posts = await getCollection('posts');
         <Link href="https://github.com/urdadx?tab=repositories" label="See all projects" isUnderline target="_blank" />
       </header>
 
-      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
+      {projects.length === 0 && <p>Oops, I must work^^^^</p>}
 
       <section class="flex flex-col gap-4">
         {projects.length !== 0 && projects.map((project) => <ProjectCard {...project} />)}

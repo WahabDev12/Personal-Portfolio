@@ -41,7 +41,7 @@ const presentation: Presentation = {
     },
     {
       label: 'React Native',
-      link: 'https://img.icons8.com/color/35/expo.png',
+      link: 'https://img.icons8.com/color/34/expo.png',
     },
     {
       label: 'Python',
